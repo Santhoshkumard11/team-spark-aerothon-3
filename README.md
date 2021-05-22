@@ -26,6 +26,8 @@
     ```
       python manage.py runserver
     ```
+   4. Open Multi_Label_Bug_Classifier.ipynb  in Google Colab - Classifier Training and model creation
+   
 ## React Setup:
   1. Go to React Client
   2. Run ``` npm install ``` to install packages.
