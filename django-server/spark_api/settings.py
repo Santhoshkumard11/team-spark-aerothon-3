@@ -90,9 +90,9 @@ DATABASES = {
         'ENGINE': 'djongo',
         "CLIENT": {
         'name': 'SparkDB',
-        'host': 'mongodb+srv://admin:Spark12MongoDB@aircluster.hy3bb.mongodb.net/SparkDB?retryWrites=true&w=majority',
+        'host': os.getenv('MONGO_DB_URL'),
         'username': 'admin',
-        'password': 'Spark12MongoDB',
+        'password': os.getenv('MONGO_DB_ADMIN_PASS'),
         "authMechanism": "SCRAM-SHA-1",
         }
     }
